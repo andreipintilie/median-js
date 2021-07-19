@@ -6,6 +6,7 @@ const groupInputLength = document.getElementById('group-input-length');
 const median = document.getElementById('median');
 
 // Functions
+
 const isOdd = (number) => number % 2;
 
 // 1. Rendering the group input
@@ -13,6 +14,7 @@ const isOdd = (number) => number % 2;
 groupInput.textContent = group;
 
 // 2. Sorting the list
+
 const newGroup = group.sort((x, y) => x - y);
 
 sortedGroupInput.textContent = newGroup;
