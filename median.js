@@ -1,4 +1,4 @@
-// Variables
+// DOM Elements
 const group = [10, 14, 12, 18, 16, 20, 22, 40];
 const groupInput = document.getElementById('group-input');
 const sortedGroupInput = document.getElementById('sorted-group-input');
